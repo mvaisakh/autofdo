@@ -29,6 +29,7 @@
 ABSL_FLAG(uint64_t, gcov_version, 0x3430372a,
               "Gcov version number.");
 
+const uint32 GCOV_TAG_AFDO_SUMMARY = 0xa8000000;
 const uint32 GCOV_TAG_AFDO_FILE_NAMES = 0xaa000000;
 const uint32 GCOV_TAG_AFDO_FUNCTION = 0xac000000;
 const uint32 GCOV_TAG_MODULE_GROUPING = 0xae000000;
